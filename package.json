@@ -1,0 +1,30 @@
+{
+  "name": "@gsail/reactem",
+  "version": "1.0.5",
+  "description": "this is a template engine to generate html on server which you can write in JSX and use React.useContext API ",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-react-jsx": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "babel-jest": "^27.0.1",
+    "jest": "^27.0.1",
+    "rollup": "^2.48.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "keywords": [
+    "jsx",
+    "template",
+    "react",
+    "html",
+    "ssr"
+  ],
+  "author": "gsail",
+  "license": "MIT"
+}
