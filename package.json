@@ -1,6 +1,6 @@
 {
   "name": "@gsail/reactem",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "this is a template engine to generate html on server which you can write in JSX and use React.useContext API ",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,14 @@
     "html",
     "ssr"
   ],
-  "author": "gsail",
-  "license": "MIT"
+  "author": "gsail <g.sail@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAILgaosai/Reactem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SAILgaosai/Reactem/issues"
+  },
+  "homepage": "https://github.com/SAILgaosai/Reactem"
 }
