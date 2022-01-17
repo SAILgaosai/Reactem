@@ -1,6 +1,6 @@
 # Reactem
 
-[![NPM](https://img.shields.io/npm/v/@gsail/reactem.svg)](https://www.npmjs.com/package/@gsail/reactem) [![NPM](https://img.shields.io/npm/l/@gsail/reactem.svg)](https://www.npmjs.com/package/@gsail/reactem)
+[![NPM](https://github.com/SAILgaosai/Reactem/workflows/test/badge.svg)](https://github.com/SAILgaosai/Reactem/actions) [![NPM](https://img.shields.io/npm/v/@gsail/reactem.svg)](https://www.npmjs.com/package/@gsail/reactem) [![NPM](https://img.shields.io/npm/l/@gsail/reactem.svg)](https://www.npmjs.com/package/@gsail/reactem)
 
 ### **A template engine to generate html on server which you can write in JSX and use React.useContext API**
 
