@@ -8,11 +8,12 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [16.x, 17.x]
+        os: [ubuntu-latest, macOS-latest, windows-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
     - uses: pnpm/action-setup@v2.0.1
@@ -24,4 +25,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'pnpm'
     - run: pnpm install
-    - run: pnpm jest --ci
+    - run: npx jest --ci --silent
